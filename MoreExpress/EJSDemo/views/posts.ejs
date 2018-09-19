@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="app.css">
+
+<h1>This is the Post Page!</h1>
+
+<% for(var i = 0; i < posts.length; i++){ %>
+<li>
+    <%= posts[i].title %> - <strong><%= posts[i].auther %></strong>
+</li>
+<% } %>
+
